@@ -1,0 +1,12 @@
+// let a = document.getElementById("pid1");
+// a.innerText = "11111";
+// let b = 100;
+// console.log(b);
+// console.log(a);
+// let name = "zhang";
+// let age = 18;
+// let url = "/test?name" + name + "&age=" + age;
+// let url2 = `/test?name=${name}&age=${age}`;
+// console.log(url);
+// console.log(url2);
+// 10 / 3;

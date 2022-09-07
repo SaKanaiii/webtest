@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url(1.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .top {
+            background-color: grey;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .top ul {
+            clear: both;
+            margin: 0 auto;
+            width: 900px;
+        }
+
+        .top ul li {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .top ul:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .content {
+            width: 900px;
+            margin: 0 auto;
+
+        }
+
+        .title {
+            font: size 40px;
+            text-align: center;
+            margin: bottom 50px;
+        }
+
+        .login_div {
+
+            border: 2px solid black;
+            width: 380px;
+            height: 200px;
+            position: relative;
+            left: 260px;
+            border-radius: 10px;
+            background-color: rgba(12, 96, 104, 0.658);
+        }
+
+        .login_div p:first-child {
+            position: absolute;
+            left: 66px;
+            top: 50px;
+        }
+
+        .login_div p:nth-child(2) {
+            position: absolute;
+            left: 66px;
+            top: 90px;
+        }
+
+        .login_div button {
+            position: absolute;
+            left: 50px;
+            top: 140px;
+            width: 280px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <ul>
+            <li>用户名：<label>无</label></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">帮助</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2 class="title">学生管理系统-登录</h2>
+        <div class="login_div">
+            <p>用户名：<input type="text" name="username" placeholder="用户名" /></p>
+            <p>密码：<input type="password" name="password" placeholder="密码" /></p>
+            <button type="submit">登录</button>
+        </div>
+    </div>
+</body>
+
+</html>
